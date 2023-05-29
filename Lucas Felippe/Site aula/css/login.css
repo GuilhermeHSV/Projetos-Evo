@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: url(../img/fundoplanet.jpg);
+    background-image: url(../img/outerspace-6.gif);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -11,8 +11,39 @@ body{
     margin: 0%;
 }
 
+header{
+    height: 10px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.nav a {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-size: 20px;
+    margin: px;
+    padding: 10px;
+    text-decoration: none;   
+}
+
+nav a:hover {
+    color: blue;
+}
+
+
+
 a{
     color: aliceblue;
+    
+}
+.bi-playstation {
+    font-size: 50px;
+    position: relative;
+    top: 10px;
     
 }
 
@@ -23,30 +54,34 @@ a:hover {
 img{
     width: 120px;
     position: relative;
-    bottom: 20px;
+    top: 60px;
     right: 30px;
     
 }
 
-header{
-            text-align: center;
+footer{
+            height: 180px;    
+            text-align: end;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: right;
             padding: 20px;
-            justify-content: space-between;
+          
             
 }
 
 .ancora a {
     position: relative;
-    bottom: 35px;
-    font-size: 35px;
-    margin: 10px;
-    
-    
-
+    top: 160px;
+    font-size: 30px;
+    margin: 8px;
+    color: blue; 
 }
+
+.ancora a:hover{
+    color: aliceblue;
+}
+
 
 main{
     text-align: center;
